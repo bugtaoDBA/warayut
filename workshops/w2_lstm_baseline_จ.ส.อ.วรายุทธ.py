@@ -288,6 +288,7 @@ class LSTMClassifier:
             # [v4-4] Entropy-based uncertainty
             entropy = -np.sum(probs * np.log(probs + 1e-10))
             return probs, entropy
+        # test
 
         return probs
 
