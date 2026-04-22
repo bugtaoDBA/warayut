@@ -822,6 +822,7 @@ def run_workshop():
     print(f"  Labeled samples  : {len(all_texts)}")
     print(f"  Feature dim      : {w1.n_features}")
     print(f"  X_all shape      : {X_all.shape}")
+    #test 2
 
     print(f"\n  Class distribution:")
     for cls, name in CLASS_NAMES.items():
