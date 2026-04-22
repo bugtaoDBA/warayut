@@ -288,6 +288,7 @@ class LSTMClassifier:
             # [v4-4] Entropy-based uncertainty
             entropy = -np.sum(probs * np.log(probs + 1e-10))
             return probs, entropy
+        # test
 
         return probs
 
@@ -821,6 +822,7 @@ def run_workshop():
     print(f"  Labeled samples  : {len(all_texts)}")
     print(f"  Feature dim      : {w1.n_features}")
     print(f"  X_all shape      : {X_all.shape}")
+    #test 2
 
     print(f"\n  Class distribution:")
     for cls, name in CLASS_NAMES.items():
